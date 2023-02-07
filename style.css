@@ -41,6 +41,7 @@ body, button, input, select, textarea{
 
 h1{
     font-size: 44px;
+    padding: 40px;
 }
 
 h2{
@@ -53,7 +54,7 @@ h1,h2{
 }
 
 p{
-    color: var(--light-grey);
+    color: var(--light-grey);    
 }
 
 .one{
@@ -168,9 +169,13 @@ nav ul a svg{
     padding: 100px;   
 }
 
+.about-me p{
+    padding-left: 20px; 
+    padding-right: 20px;   
+}
+
 .about-me .container{
     width: 50%;
-    padding-right: 50px;
 }
 
 .about-me .img-container{
@@ -183,22 +188,6 @@ nav ul a svg{
     width: 40%;
     height: 100%;
     object-fit: cover;
-}
-
-.about-me .img-container .line{
-    width: calc(40% + 50px);
-    height: calc(100% + 50px);
-    border: 1px solid var(--purple);
-    
-
-    position: absolute;
-    top: -25px;
-    left: calc(50% - 40%/2 - 25px);
-}
-
-.about-me .img-container .line.green {
-    transform: rotate(-3.3deg);
-    color: var(--green);
 }
 
 .services{
